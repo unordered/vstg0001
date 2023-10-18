@@ -139,7 +139,6 @@
     <ClInclude Include="Content.h" />
     <ClInclude Include="CRingBuffer.h" />
     <ClInclude Include="FPS.h" />
-    <ClInclude Include="MemoryPool.h" />
     <ClInclude Include="PacketManager.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="PlayerManager.h" />

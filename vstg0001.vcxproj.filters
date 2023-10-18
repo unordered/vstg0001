@@ -54,9 +54,6 @@
     <ClInclude Include="Content.h">
       <Filter>content</Filter>
     </ClInclude>
-    <ClInclude Include="MemoryPool.h">
-      <Filter>Util</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="TCP SERVER">
@@ -67,9 +64,6 @@
     </Filter>
     <Filter Include="content">
       <UniqueIdentifier>{46a113b9-a799-41a8-bb58-080ae206aacc}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Util">
-      <UniqueIdentifier>{c72ed011-5e8b-4cab-a46c-aa890758e2e0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
