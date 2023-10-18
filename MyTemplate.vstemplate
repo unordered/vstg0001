@@ -1,0 +1,38 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>TCP_SERVER_MMO</Name>
+    <Description>&lt;사용할 수 있는 설명 없음&gt;</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>TCP_SERVER_MMO</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="NetworkLib(230731)뉴버전.vcxproj" File="vstg0001.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">vstg0002.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="content.cpp">content.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="PacketManager.cpp">PacketManager.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SerializeBuffer.cpp">SerializeBuffer.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="FPS.h">FPS.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="PacketManager.h">PacketManager.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Player.h">Player.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="PlayerManager.h">PlayerManager.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SectorManager.h">SectorManager.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SerializeBuffer.h">SerializeBuffer.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="TCPFighterServer.h">TCPFighterServer.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Content.h">Content.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Packet.h">Packet.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="CRingBuffer.cpp">CRingBuffer.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="TCPServer.cpp">TCPServer.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="CRingBuffer.h">CRingBuffer.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="TCPServer.h">TCPServer.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="main.cpp">main.cpp</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

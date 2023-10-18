@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="NetworkCore">
+      <UniqueIdentifier>{5a6265f7-8646-4c85-afe9-632ca3c5731c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{125eacbd-4b12-4388-bbcd-a3877eff2166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TCPFighterServer">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TCPServer.cpp">
+      <Filter>NetworkCore</Filter>
+    </ClCompile>
+    <ClCompile Include="CRingBuffer.cpp">
+      <Filter>NetworkCore</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketManager.cpp">
+      <Filter>TCPFighterServer</Filter>
+    </ClCompile>
+    <ClCompile Include="SerializeBuffer.cpp">
+      <Filter>TCPFighterServer</Filter>
+    </ClCompile>
+    <ClCompile Include="content.cpp">
+      <Filter>TCPFighterServer</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TCPServer.h">
+      <Filter>NetworkCore</Filter>
+    </ClInclude>
+    <ClInclude Include="CRingBuffer.h">
+      <Filter>NetworkCore</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPFighterServer.h">
+      <Filter>TCPFighterServer</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketManager.h">
+      <Filter>TCPFighterServer</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>TCPFighterServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>TCPFighterServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Content.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SectorManager.h">
+      <Filter>TCPFighterServer</Filter>
+    </ClInclude>
+    <ClInclude Include="SerializeBuffer.h">
+      <Filter>TCPFighterServer</Filter>
+    </ClInclude>
+    <ClInclude Include="FPS.h">
+      <Filter>TCPFighterServer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

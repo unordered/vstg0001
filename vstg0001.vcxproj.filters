@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="TCPServer.cpp">
+      <Filter>TCP SERVER</Filter>
+    </ClCompile>
+    <ClCompile Include="SerializeBuffer.cpp">
+      <Filter>TCP SERVER</Filter>
+    </ClCompile>
+    <ClCompile Include="CRingBuffer.cpp">
+      <Filter>TCP SERVER</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>TCP MMO</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketManager.cpp">
+      <Filter>TCP MMO</Filter>
+    </ClCompile>
+    <ClCompile Include="content.cpp">
+      <Filter>content</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TCPServer.h">
+      <Filter>TCP SERVER</Filter>
+    </ClInclude>
+    <ClInclude Include="SerializeBuffer.h">
+      <Filter>TCP SERVER</Filter>
+    </ClInclude>
+    <ClInclude Include="CRingBuffer.h">
+      <Filter>TCP SERVER</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPFighterServer.h">
+      <Filter>TCP MMO</Filter>
+    </ClInclude>
+    <ClInclude Include="FPS.h">
+      <Filter>TCP MMO</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>TCP MMO</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketManager.h">
+      <Filter>TCP MMO</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>TCP MMO</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>TCP MMO</Filter>
+    </ClInclude>
+    <ClInclude Include="SectorManager.h">
+      <Filter>TCP MMO</Filter>
+    </ClInclude>
+    <ClInclude Include="Content.h">
+      <Filter>content</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="TCP SERVER">
+      <UniqueIdentifier>{6f6d92c5-3a17-4fbf-94a5-07cde5e1fec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TCP MMO">
+      <UniqueIdentifier>{3fdb8895-1872-47e8-bc64-941db43c131a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content">
+      <UniqueIdentifier>{46a113b9-a799-41a8-bb58-080ae206aacc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{c72ed011-5e8b-4cab-a46c-aa890758e2e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
